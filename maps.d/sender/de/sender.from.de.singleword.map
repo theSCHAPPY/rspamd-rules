@@ -31,6 +31,7 @@
 /abnehmen/i
 /abteilung/i
 /achtung/i
+/_angebote/i
 
 # Lidl uses this
 #/angebote/i
@@ -97,6 +98,7 @@
 
 /beziehungen/i
 
+/blähfrei/i
 /bluthochdruck/i
 /blutzucker/i
 /bürostuhl/i
@@ -297,8 +299,10 @@
 /leistungs.?stark/i
 
 /liebster?$/i
+
 /^lieferung$/i
 #/lieferung/i
+/lieferinformation/i
 /lieferaktualisierung/i
 
 /^logistik$/i
@@ -394,6 +398,7 @@
 /schlafplatz/i
 /schlafzauber/i
 /schlafset/i
+
 /schlankheit/i
 /^schlank$/i
 

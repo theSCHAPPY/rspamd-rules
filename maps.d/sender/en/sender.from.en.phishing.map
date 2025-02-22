@@ -33,7 +33,7 @@
 /helpdesk-/i
 /mail.?(admin|server)/i
 
-/^support.?(client|desk)$/i
+/^support.?(client|desk|team)$/i
 
 #
 #
@@ -104,6 +104,7 @@
 # Q
 
 # R
+/recommended.{0,10}tea/i
 /rewards$/i
 
 # S

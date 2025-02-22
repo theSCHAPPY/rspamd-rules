@@ -77,10 +77,11 @@
 /(kg|kilo).{1,10}(pro woche|weniger)/i
 /(kg|kilo).{1,10}(tagen?|wochen?)
 
-/keto.{0,10}(diät|erfolge?)/i
+/keto.{0,10}(diät|erfolge?|kaffee)/i
 
 # L
 /leber.{0,10}detox/i
+/leise.{0,10}schlafen/i
 
 # M
 /mag.{0,10}boost/i
@@ -107,6 +108,8 @@
 
 # R
 /reduzieren sie.{1,15}fett/i
+/ruhe.{1,15}nacht/i
+/ruhige.{0,10}nächte/i
 
 # S
 /schmerzen in/i

@@ -17,7 +17,8 @@
 
 /(\d.?second|japanese).{1,10}(fix|hack|ritual|secret|trick)/i
 
-/(secret|simple|unusual).{1,10}(hack|solution|trick).{1,15}(activate|erases|needs|reverses|to end)/i
+/(secret|simple|unusual).{1,10}(hack|ritual|solution|trick).{1,15}(activate|erases|needs|reverses|trusted|to end)/i
+
 /secrets? lowers.{1,10}high blood/i
 /secrets? to (enhancing|unlock(ing)?)/i
 /secrets? unveiled/i
@@ -32,6 +33,7 @@
 /breaking.{1,10}harvard study/i
 /discover.{1,10}(incredible|simple tip)/i
 /fingertip pressure trick/i
+
 /easy trick for clear/i
 
 /this.{1,10}home remedy/i
@@ -59,7 +61,7 @@
 
 /\d{1,2}.{1,10}day trick to a/i
 /\d{1,2}.{1,10}second routine/i
-/\d{1,3}.?lbs gone/i
+/\d{1,3}.?(lbs|pounds) gone/i
 
 /\d cause of/i
 /\d stretch/i
@@ -74,6 +76,7 @@
 /(achy|bad).{1,10}knees/i
 
 /activate.{1,10}brain/i
+/after trying this/i
 
 /alzheimer.{1,15}take this/i
 /annoying ear buzzing/i
@@ -101,7 +104,7 @@
 
 /bladder leaks/i
 /bloated because of/i
-/blood.?sugar.{1,10}(drops|naturally)/i
+/blood.?sugar.{1,10}(breakthrough|drops|naturally)/i
 
 /boost.{1,10}eart health/i
 /boost.{1,10}your.{1,15}(health|metabolism|vitality)/i
@@ -156,6 +159,7 @@
 /eat \d cup/i
 /ear buzzing with this/i
 
+/eases.{1,10}joint.?pain/i
 /easing.{1,10}stiff joints/i
 /easy.?to.?do technique/i
 
@@ -174,18 +178,21 @@
 /end.{1,10}urine leaks/i
 
 /energized.{1,10}pain.?free/i
-/enhance your.{1,20}(energy|hearing|vitality)/i
+/enhance your.{1,20}(energy|hearing|metabolism|vitality)/i
 
 /eliminates?.{1,15}without meds/i
 /eliminates?.{1,10}(nerve|type 2)/i
 
-/erases?.{1,10}(artery plaque|tinitus)/i
+/erases?.{1,10}(artery plaque|tinitus|wrinkles?)/i
 /erections?.{1,10}pill/i
 
 # F
 /fastest way to eliminate/i
 
 /fatty cells/i
+
+/fight.{1,10}memory.?loss/i
+
 /fix.{1,10}back pain/i
 /fix.{1,10}stronger/i
 /fix.{1,10}them in seconds/i
@@ -195,6 +202,7 @@
 /flush out this/i
 
 /focus.{1,10}memory/i
+/foods? that fight/i
 /follow these steps at/i
 /for.{1,10}weight.?loss/i
 
@@ -275,6 +283,7 @@
 /no surgery needed/i
 
 # O
+/open the mystical/i
 /overcome diabetes/i
 
 # P
@@ -309,7 +318,10 @@
 /relief with this.{1,15}(technique|weird)/i
 /relieve.{1,10}constipation/i
 /remedy unleashes your/i
-/remove.{1,10}dark spots/i
+
+/removes?.{1,10}dark spots/i
+/removes?.{1,10}(lbs|pounds) every.{1,10}days?/i
+
 /restores?.{1,10}(joint|memory|perfect)/i
 
 /(reverse|reversing).{1,10}(aging in|diabetes|ed\b|memory|type 2)/i
@@ -337,6 +349,7 @@
 
 /simple at.?home/i
 /simple drink helps/i
+/simple habit that/i
 /simple way to reverse/i
 
 /skin.{1,10}transformation/i
@@ -349,6 +362,9 @@
 
 /stable blood sugar/i
 /start melting/i
+
+/stir this into/i
+
 /stubborn.{1,10}(fat|mucus)/i
 
 /stop dieting/i
@@ -370,9 +386,12 @@
 /the secret ingredient/i
 
 /this before going to bed/i
-/this cuts heart attack/i
 /this (easy|simple) stretch/i
 /this for.{1,10}seconds/i
+
+/this.{1,10}cuts heart attack/i
+/this.{1,10}strange method/i
+/this.{1,10}tea stops/i
 /this.{1,10}your ears/i
 
 /tinnitus.{1,10}(discovery|relief)/i

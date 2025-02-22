@@ -113,7 +113,10 @@
 # E Bike
 # ------------------------------------------------------------------------------
 /urban cruiser manufaktur/i
-/unserer neuesten.{1,10}e.?bike/i
+/(neues|unser).{1,15}(e.?bike|elektro.?moped)/i
+
+/(e.?bike|elektro.?moped).{1,10}fabrik/i
+/(e.?bike|elektro.?moped).{1,10}vorzustellen/i
 
 /(moped style|retro.?cruiser).{1,10}e.?bike/i
 
@@ -198,13 +201,15 @@
 # Lamp
 # ------------------------------------------------------------------------------
 /arbeitslicht.{1,10}klicken sie hier/i
+/(besserem|besseres) licht.{1,10}klicken sie hier/i
 
 /(beleuchtung|effizient arbeit|homeoffice|tischlampe).{1,10}klicken sie/i
 /(beleuchtung|tischlampe).{1,10}fokussiert/i
 
-/(ideale|unsere).{1,10}tischlampe/i
+/(ideale|mit dieser|perfekte|unsere).{1,10}(tisch)?lampe/i
 
 /lösung.{1,10}perfektes arbeitslicht/i
+
 
 # Learning languages
 # ------------------------------------------------------------------------------

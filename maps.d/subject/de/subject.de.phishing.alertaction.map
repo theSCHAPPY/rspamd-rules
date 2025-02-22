@@ -15,8 +15,9 @@
 
 # A
 /aktion erforderlich!/i
-/aktion erforderlich.{1,10}(schliessen|schließen) sie/i
-/aktion erforderlich.{1,10}rückerstattung/i
+/aktion erforderlich.{1,15}(schliessen|schließen) sie/i
+/aktion erforderlich.{1,15}rückerstattung/i
+/aktion erforderlich.{1,15}zahlungsstatus/i
 
 /aktivitäten erkannt.{1,10}maßnahmen erforderlich/i
 
@@ -28,8 +29,9 @@
 
 /aktualisierung.{1,10}ihrer.{1,10}(kontakt|zahlungs).?informationen/i
 
+/aktualisierung.{1,20}bankanwendung/i
 /aktualisierung.{1,25}(kredit)?karte/i
-/aktualisierung.{1,10}phototan.?app/i
+/aktualisierung.{1,20}phototan.?app/i
 
 /aktualisierung.{1,10}überprüfen sie/i
 
@@ -82,6 +84,8 @@
 
 # L
 /letzte erinnerung \[/i
+
+/letzte warnung.{1,10}ihr.{1,15}konto/i
 /letzte warnung.{1,10}(verdächtige|vorladung)/iu
 
 # M
@@ -116,6 +120,7 @@
 /update erforderlich/i
 /update.{1,10}kontosicherheit/i
 
+/überprüfen sie bestellung/i
 /überprüfen sie ihre.{1,15}daten jetzt/iu
 /überprüfen sie ihr.{1,15}(konto|profil)/iu
 /überprüfen sie ihre.{1,15}(kontodaten|persönlichen daten)/iu

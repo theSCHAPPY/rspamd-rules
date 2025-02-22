@@ -18,22 +18,24 @@
 /e.?bike\?/i
 /e.?bike!/i
 
-/e.?bikes?.{1,10}(besten|bester) preis/i
-/e.?bikes?.{1,10}für (alle|den|ihre|jedes?)/i
-/e.?bikes?.{1,10}(angebot|innovation(en)?|komfort|power|revolution|stärke)/i
-/(auf ein|fortbewegung|kauf|neues|rabatt(en)?|unschlagbare?|über).{1,15}e.?bike/iu
+/(e.?bike|elektro.?moped).{1,10}(besten|bester) preis/i
+/(e.?bike|elektro.?moped).{1,10}für (alle|den|ihre|jedes?)/i
+/(e.?bike|elektro.?moped).{1,15}(angebot|in nur|innovation|komfort|motor)/i
+/(e.?bike|elektro.?moped).{1,15}(power|reichweite|revolution|tagen|stärke)/i
+
+/(auf ein|faltbarefortbewegung|kauf|neues).{1,15}(e.?bike|elektro.?moped)/iu
+/(rabatt|unschlagbare?|unser|über).{1,15}(e.?bike|elektro.?moped)/iu
 
 # Brand
 /e.?bikes?.{1,10}city voyager/i
 /der.{1,10}city voyager/i
 
-/unser neues.{1,10}e.?bike/i
-/mit (einem|unserem).{1,10}e.?bike/i
+/mit einem.{1,10}(e.?bike|elektro.?moped)/i
 
-/(bestes?|entdecken|leistungsstark|modernen|neuesten).{1,10}e.?bike/i
-/(perfektes?|richtigen|stylische|tragbare).{1,10}e.?bike/i
+/(bestes?|entdecken|faltbar|leistungsstark|modernen|neuesten).{1,10}(e.?bike|elektro.?moped)/i
+/(perfektes?|richtigen|stylische|tragbare).{1,10}(e.?bike|elektro.?moped)/i
 
-/retro.?cruiser.{1,5}ebike/i
+/retro.?cruiser.{1,5}e.?bike/i
 /moped.{1,5}(cruiser|e.?bikes?)/i
 /moped.{1,5}style e.?bikes/i
 

@@ -63,6 +63,7 @@
 # I
 /ic microchip request/i
 /injection molding solutions/i
+/injection molding$/i
 
 # J
 
@@ -74,6 +75,8 @@
 /low price.{1,10}plastic.?mold/i
 
 # M
+/many years.{1,10}oem/i
+
 /manufacturer of.{5,25}since/i
 /manufacturer from.{1,10}china/i
 
@@ -81,24 +84,29 @@
 /multiple freight solutions/i
 
 /moulding (from|in) china/i
-/moulding services (from|in) china/i
+/moulding.{1,10}services (from|in) china/i
+/moulding.{1,10}supplier/i
 
-/moulds construction/i
+/(mold|moulds) (maker|construction)/i
 
 # N
 
 # O
+/oem.{1,10}(plastic|products?|service|supplier)/i
+
+/our advanced pcba?/i
 /our high.?quality.{1,10}pcba?/i
 
 # P
 /passive.{1,10}component broker/i
 /passive.{1,10}parts?.{1,10}(req|xilinx)/i
 
-/pcba?.{1,20}(assembly|enquiry|factory|manufacturer|manufacturing|provider)/i
+/pcba?.{1,20}(assembly|enquiry|factory|manufacturer|manufacturing|provider|service)/i
 /pcba?.{1,10}factory (from|in) china/i
 /pcba?.{1,10}supplier for/i
 
-/plastic.?injection mould.?maker/i
+/plastic.?injection.{1,10}mould.?maker/i
+/plastic.?tooling.{1,10}services?/i
 
 /prototype manufacturer?/i
 
