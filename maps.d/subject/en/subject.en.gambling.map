@@ -3,12 +3,9 @@
 # Weight:   6.0
 # ==============================================================================
 
+
 # Topics
 # ==============================================================================
-
-# Products
-# ------------------------------------------------------------------------------
-/car emergency kit/i
 
 #
 #
@@ -22,22 +19,19 @@
 # B
 
 # C
-/claim your prize/i
-
-/congratulations.{1,10}you.{1,10}won/i
+/claim your.{1,15}bonus/i
 
 # D
 
 # E
-/exclusive.{1,20}rewards now/i
 
 # F
+/free casino.{1,10}(await|games|thrill)/i
+/free spins/i
 
 # G
-/gift team/i
 
 # H
-/hurry.{1,10}secure your/i
 
 # I
 
@@ -54,32 +48,28 @@
 # O
 
 # P
+/play free.{1,10}win big/i
 
 # Q
 
 # R
-/reward.{1,10}is (here|waiting)/i
-/reward.{1,10}open (immediately|now)/i
 
 # S
-/secure your gift/i
+/\d{2,3} spins/i
+
+/spins on the house/i
+/spin.{1,10}win/i
 
 # T
-/time for a reward/i
 
 # U
 
 # V
 
 # W
-/win.{1,10}free.{1,15}products/i
 
 # X
 
 # Y
-/you.{1,10}are selected for.{1,10}potential/i
-
-/you.{1,10}been chosen/i
-/you.{1,10}won an/i
 
 # Z

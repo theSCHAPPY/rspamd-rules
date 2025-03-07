@@ -79,10 +79,13 @@
 /dringlichkeitsantrag/i
 /^dringend:/i
 
+/durchlauferhitzer/i
+
 # E
 /^einkaufsgutschein/i
 
 /elektro.?heizer/i
+/^elektrofahrrad/i
 
 /entschädigungsfonds/iu
 /entschädigungslotterie/iu
@@ -262,6 +265,7 @@ fettverbrenner/i
 
 # S
 /sauberlaufmatten/i
+/sauberlaufteppiche/i
 
 /schlankpaket/i
 /schmutzfangläufer/iu
@@ -351,4 +355,6 @@ fettverbrenner/i
 /zahlungsüberprüfung/iu
 
 /zustellungsproblem/i
+/zustellversuch!/i
+
 /zollabsagens/i

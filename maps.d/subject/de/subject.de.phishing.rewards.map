@@ -57,6 +57,9 @@
 /besonderer zugang von/i
 /bestätigen sie den erhalt/iu
 
+/#bestätigen sie jetzt!^/i
+/bestätigen sie jetzt/iu
+
 # C
 
 # D
@@ -172,6 +175,7 @@
 # M
 
 # N
+/nicht abgeholte belohnung/i
 /nicht verpassen.{1,25}verlosung/i
 
 /nutze deine.{1,10}punkte bis zum/i
@@ -190,6 +194,7 @@
 /preis.{1,15}mystery box/i
 /preis.{1,10}zugestellt zu bekommen/i
 /preise.{1,10}freigeschaltet/i
+/preise ist begrenzt/i
 
 /profil wurde für eine besondere/iu
 

@@ -16,6 +16,7 @@
 # TLD in front
 /\.[a-z]{1,4}.{1,5}administrator notification/i
 /\.[a-z]{1,4}.{1,5}confirm to complete/i
+/\.[a-z]{1,4}.{1,5}update notification/i
 
 # A
 
@@ -24,7 +25,9 @@
 # C
 
 # D
+/de.?activation.{1,10}authentication required/i
 /de.?activation of.{1,10}mailbox/i
+
 /delayed messages in/i
 
 # E
@@ -59,6 +62,8 @@
 
 # R
 /reset password.{1,15}(fail|message)/i
+
+/re.?validate server/i
 /review incoming.{1,10}(e?.?mail|message)/i
 
 # S

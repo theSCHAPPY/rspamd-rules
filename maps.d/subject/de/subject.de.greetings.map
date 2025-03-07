@@ -57,6 +57,9 @@
 /hallo.{1,10}sehr dringend/i
 /hallo.{1,10}wie geht es ihnen/i
 
+/hallo.{1,10}mein name ist.{5,25}ich (arbeite|bin|komme aus)/i
+/hallo.{1,10}mein name ist.{5,25}(aus der|gewinner)/i
+
 # Sample: Hallo helan@hh-biodynamik.de
 /hallo.{1,20}@[a-z0-9].{4,15}\.[a-z]{2,4}/i
 
@@ -79,6 +82,8 @@
 /lieber? empfänger/iu
 /lieber freund/i
 
+/liebster? im herrn/i
+
 /linkedin.{1,10}hallo/i
 
 # M
@@ -88,6 +93,7 @@
 /meine liebste/i
 
 /mit freundlichen (grüssen?|grüßen?)/i
+/mit gebührendem respekt/iu
 
 # N
 
@@ -101,6 +107,8 @@
 
 # S
 /sehr geehrte.?r?$/i
+/sehr geehrter?!/i
+
 /sehr geehrte damen und herren/i
 
 /sei gegrüßt.{1,10}mein geliebter/iu

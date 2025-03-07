@@ -85,7 +85,7 @@
 # ------------------------------------------------------------------------------
 /(health|quick).{0,10}(boost(er)?|fix|guide)/i
 
-/health.?(digest|research)/i
+/health.?(digest|now|research)/i
 
 /healthy?.{0,10}(alert|alternative|brain|circulation|foods?)/i
 /healthy?.{0,10}(guides?|gut|heart|heaven|hero|insights)/i
@@ -95,7 +95,7 @@
 
 /(better|bone|dangerous).{0,10}health/i
 
-/(avoid|drink).{0,10}(cup|this)/i
+/drink.{0,10}(cup|this)/i
 
 # Hearing, Tinnitus
 # ------------------------------------------------------------------------------
@@ -258,8 +258,6 @@
 /artery.{0,10}(cure|health|plaque)/i
 /arthritis.{0,10}gone/i
 
-/avoid.{0,10}(blueberries|kegels|veggies|zink)/i
-
 # B
 /(bad|big|poor|weak).{0,10}bladder/i
 /(bad|enhanced).{0,10}(eyes|memory)/i
@@ -271,6 +269,9 @@
 /balanced.?(bp|glucose)/i
 /bald.{0,10}spot/i
 /baldness.{0,10}(cure|fix)/i
+
+/banana vs/i
+
 /basic.{0,10}protein/i
 
 /bed.?hack/i
@@ -328,7 +329,7 @@
 /(clean|fat|feeding|zombie).{0,10}cell/i
 /clean.{0,10}(gut|lungs)/i
 /cleansing.{0,10}pads/i
-/clear.{0,10}((toe)?nails|skin)/i
+/clear.{0,10}(eyes|(toe)?nails|skin)/i
 
 /click(ing)?.{0,10}(free|noise|sounds?)/i
 /clinically.{0,10}proven/i
@@ -356,8 +357,10 @@
 
 /detox.{0,10}(solution|your)/i
 
-/digestive.{0,10}(boost|help|reset|system)/i
+/digestive.{0,10}(boost|health|help|reset|system)/i
 /digestion/i
+
+/discover.{0,15}today/i
 /diy.{0,10}lipo/i
 
 /do not (eat|take)/i
@@ -529,6 +532,8 @@
 /muscle.{0,10}(miracle|pain|repair)/i
 /mushroom.{0,10}magic/i
 
+/miracle.{0,10}syrup/i
+
 # N
 /(toe)?nail.{0,10}(fix(er)?|repair|rescue|restoration|rub|test)/i
 
@@ -624,7 +629,7 @@
 /senior.{0,10}moments/i
 /severe.{0,10}pain/i
 
-/sharp(er)?.{0,10}(ears|mind|thinking)/i
+/sharp(er)?.{0,10}(ears|eyes|mind|thinking)/i
 
 /sight.{0,10}care/i
 /silence.{0,10}(buzzing|pain)/i
@@ -634,6 +639,10 @@
 
 /(slim|skinny).{0,10}waist/i
 /slim.{0,10}drink/i
+
+/small.{0,10}stomach/i
+/smile{0,10}fix/i
+
 /snore.{0,10}stop/i
 
 /spiky.{0,10}fruit/i
@@ -651,7 +660,7 @@
 
 /stuck.{0,10}poop/i
 
-/sugar.{0,10}(free|spike|traps|trick)/i
+/sugar.{0,10}(control|free|spike|traps|trick)/i
 /super.{0,10}water/i
 /surgeon.{0,10}reveals?/i
 /surgery.{0,10}canceled/i

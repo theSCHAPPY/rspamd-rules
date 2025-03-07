@@ -3,14 +3,6 @@
 # Weight:   6.0
 # ==============================================================================
 
-
-# Topics
-# ==============================================================================
-
-#
-#
-#
-
 # Generic
 # ==============================================================================
 
@@ -21,6 +13,7 @@
 # C
 
 # D
+/diese.{1,10}e?.?mail wurde an.{5,45}zu werbezwecken gesendet/i
 
 # E
 
@@ -31,6 +24,7 @@
 # H
 
 # I
+/ihre.{1,10}kontaktdaten haben wir aus öffentlich.{1,20}quellen/iu
 
 # J
 
@@ -43,16 +37,16 @@
 # N
 
 # O
-/order confirmation.{1,10}request/i
 
 # P
 
 # Q
 
 # R
-/request.{1,10}machine.{1,10}quotation/i
 
 # S
+/sie an einem.{1,15}wettbewerb im internet teilgenommen haben/i
+/sie erhalten.{1,10}kostenlosen informationen.{1,10}(da|weil).{1,10}sie/i
 
 # T
 

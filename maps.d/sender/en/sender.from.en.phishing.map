@@ -49,7 +49,7 @@
 # A
 /aaa.{0,10}deals?/i
 
-/accounts?.?(department|help|team)/i
+/accounts?.?(department|help|payable|team)/i
 
 # B
 /billing.?team/i
@@ -107,6 +107,7 @@
 /notification.{0,10}company/i
 
 # O
+/opinion.{0,10}request(ed)?/i
 
 # P
 
@@ -137,6 +138,7 @@
 /systems.?administrator/i
 
 # T
+/thank you/i
 /trusted authentication/i
 
 # U

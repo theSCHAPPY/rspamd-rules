@@ -25,7 +25,7 @@
 /(dear|greetings?|good day|hello|hi\b).{1,15}(agency|beneficiary|engineer|manager|owner|purchasing)/i
 /(dear|greetings?|good day|hello|hi\b).{1,15}(e?.?mail|domain.?name|site|web)/i
 /(dear|greetings?|good day|hello|hi\b).{1,15}(business|investment)/i
-/(dear|greetings?|good day|hello|hi\b).{1,15}(managing).?director/i
+/(dear|greetings?|good day|hello|hi\b).{1,15}(managing)?.?director/i
 
 /(dear|greetings?|good day|hello|hi\b).{1,10}apologize for sending you/i
 /(dear|greetings?|good day|hello|hi\b).{1,10}from.{5,35}the.{1,15}manager/i
@@ -50,8 +50,14 @@
 
 /dear.{1,10}(madam|purchaser|sir).{1,15}are you looking/i
 /dear.{1,10}(madam|purchaser|sir).{1,15}glad to (contact|connect|know|write)/i
+/dear.{1,10}(madam|purchaser|sir).{1,15}(good|nice) day/i
+
+/dear.{1,10}(madam|purchaser|sir).{1,15}my name is.{5,35}i am from/i
+
 /dear.{1,10}(madam|purchaser|sir).{1,15}please find attached/i
 /dear.{1,10}(madam|purchaser|sir).{1,15}you interested in/i
+
+/dear.{1,10}(madam|purchaser|sir).{1,15}i work with a/i
 
 # E
 
@@ -64,6 +70,7 @@
 /good (afternoon|day|evening|morning).{1,10}i.?a?m.{5,25}(chairman|director)/i
 /good (afternoon|day|evening|morning).{1,10}i.?a?m.{5,25}from/i
 
+/good (afternoon|day|evening|morning).{1,10}i represent/i
 /good (afternoon|day|evening|morning).{1,10}my name is/i
 
 /good (afternoon|day|evening|morning).{1,15}this might come.{1,10}surprise/i
@@ -71,6 +78,7 @@
 /good (afternoon|day|evening|morning).{1,10}to you.{1,10}my name is/i
 /good (afternoon|day|evening|morning).{1,10}trust this message/i
 
+/greetings.{1,10}greetings/i
 /greetings.{1,10}my friend/i
 
 # H
@@ -82,6 +90,7 @@
 
 /(hello|hi).{1,10}customer/i
 /(hello|hi).{1,5}(dear|friend).{1,10}(confidential|private|strictly|urgent)/i
+/(hello|hi).{1,5}(dear|friend).{1,10}good day/i
 /(hello|hi).{1,5}(dear|friend).{1,10}we would like to introduce/i
 
 /(hello|hi).{5,35}from.{5,35}(in)? (china|india|ukraine)/i

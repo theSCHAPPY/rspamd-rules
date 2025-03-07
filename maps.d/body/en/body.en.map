@@ -6,10 +6,6 @@
 # Topics
 # ==============================================================================
 
-# Products
-# ------------------------------------------------------------------------------
-/car emergency kit/i
-
 #
 #
 #
@@ -22,24 +18,19 @@
 # B
 
 # C
-/claim your prize/i
-
-/congratulations.{1,10}you.{1,10}won/i
 
 # D
 
 # E
-/exclusive.{1,20}rewards now/i
 
 # F
 
 # G
-/gift team/i
 
 # H
-/hurry.{1,10}secure your/i
 
 # I
+/i came across your.{1,10}e?.?mail/i
 
 # J
 
@@ -58,28 +49,19 @@
 # Q
 
 # R
-/reward.{1,10}is (here|waiting)/i
-/reward.{1,10}open (immediately|now)/i
 
 # S
-/secure your gift/i
 
 # T
-/time for a reward/i
 
 # U
 
 # V
 
 # W
-/win.{1,10}free.{1,15}products/i
 
 # X
 
 # Y
-/you.{1,10}are selected for.{1,10}potential/i
-
-/you.{1,10}been chosen/i
-/you.{1,10}won an/i
 
 # Z

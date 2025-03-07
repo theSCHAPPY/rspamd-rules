@@ -45,7 +45,7 @@
 /(1st|first|seo|top).{1,10}((home)?page|(web)?site).{1,10}(google|of)/i
 /(1st|first|seo|top).{1,15}rank(ings?)?/i
 
-/(1st|first|seo|top).{1,15}(page|place|position|rankings?|spot).{1,10}plan/i
+/(1st|first|seo|top).{1,15}(page|place|position|rankings?|spot).{1,10}(plan|quote)/i
 /(1st|first|seo|top).{1,15}(page|place|position|rankings?|spot).{1,10}(bing|google|yahoo)/i
 
 /full seo.?package/i
@@ -71,6 +71,7 @@
 # L
 
 # M
+/more traffic.{1,10}revenue/i
 
 # N
 
@@ -95,7 +96,8 @@
 # S
 /s\.e\.o\./i
 
-/search engine optimisation.{1,10}seo/i
+/search.{1,10}engine optimisation.{1,10}seo/i
+/search.{1,10}optimization rates?/i
 
 /seo cost/i
 /seo.{1,10}(agency|best cost|bundle|expert|low cost|meeting|offer)/i
@@ -112,7 +114,10 @@
 # V
 
 # W
+/want more traffic/i
+
 /with.{1,10}quality.?backlinks/i
+/with our.{1,10}seo/i
 
 # X
 
